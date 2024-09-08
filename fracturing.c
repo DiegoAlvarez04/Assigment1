@@ -8,7 +8,7 @@ double x2=6;
 double y2=6;
 double distance = sqrt(pow(x2-x1,2)+pow(y2-y1,2));
 
-printf("Point 1 (%lf,%lf), Point 2 (%lf,%lf), distance: %lf\n",x1,y1,x2,y2,distance);
+printf("Point 1 (%.2lf,%.2lf), Point 2 (%.2lf,%.2lf), distance: %.2lf\n",x1,y1,x2,y2,distance);
 
 return distance;
 }
